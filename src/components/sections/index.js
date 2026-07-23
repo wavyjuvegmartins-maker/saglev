@@ -1,0 +1,6 @@
+export { default as AboutSection } from './AboutSection'
+export { default as VisionSection } from './VisionSection'
+export { default as ModelsSection } from './ModelsSection'
+export { default as NewsSection } from './NewsSection'
+export { default as FaqSection } from './FaqSection'
+export { default as ContactSection } from './ContactSection'
