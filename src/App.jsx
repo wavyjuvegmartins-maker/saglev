@@ -1,4 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import BackToTopButton from './components/BackToTopButton'
 import { Nav } from './components'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        <BackToTopButton />
       </div>
     </BrowserRouter>
   )
